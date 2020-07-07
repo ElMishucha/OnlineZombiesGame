@@ -213,7 +213,7 @@ MonoBehaviour:
     i14: 0
     i15: 0
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &6935683266603486228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8fbafa41842a04d986446589fe628b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 6813620577062181835, guid: 5a33742fec20dbf458d6b11032b141c9, type: 3}
   health: 1
   speed: 4
   id: 0
